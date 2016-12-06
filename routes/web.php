@@ -17,3 +17,4 @@ $app->get('/', function () use ($app) {
 
 $app->get('drink', 'DrinkController@getDrink');
 
+$app->post('user', 'UserController@getUser');
